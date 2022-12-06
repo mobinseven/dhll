@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+iframe {
+    border: 0;
+}
+
+.split {
+height: 100%;
+width: 50%;
+position: absolute;
+overflow: hidden;
+z-index: 1;
+text-align: center;
+}
+
+.left {
+position: absolute;
+display: block;
+float: left;
+height: 100%;
+left: 0px;
+background-color: #e2e2e2;
+z-index: 1;
+justify-content: center;
+
+}
+/* Control the right side */
+.right {
+position: absolute;
+right: 0px;
+height: 100%;
+float: right;
+background-color: #e2e2e2;
+z-index: 1;
+border-style: solid;
+border-left-width: 0.5px;
+border-right-width: 0px;
+border-top-width: 0px;
+border-bottom-width: 0px;
+}
+/* 하단 바 */
+/* Place the navbar at the bottom of the page, and make it stick */
+.navbarleft {
+clear: both;
+position: absolute;
+height: 4%;
+width: 100%;
+z-index: 100000;
+bottom: 0px;
+background-color: #999;
+}
+
+.navbarleft a {
+position: relative;
+float: left;
+left: 0;
+/*display: block; */
+color: #f2f2f2;
+text-align: center;
+padding: 10px 10px;
+text-decoration: none;
+font-size: 12px;
+}
+
+.navbarleft-split a {
+    float: right;
+    right: 0%;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 8px 8px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* Change the color of links on hover */
+.navbarleft a:hover {
+background-color: #ddd;
+color: black;
+}
+
+
+
+
+
+
+
+.navbarright {
+overflow: hidden;
+position: absolute;
+height: 4%;
+bottom: 0px;
+width: 100%;
+z-index: 100;
+background-color: #999;
+border-left-width: 1px;
+border-color: #999;
+}
+/* Style the links inside the navigation bar */
+
+.navbarright a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 10px 10px;
+text-decoration: none;
+font-size: 12px;
+}
+
+.navbarright-split a {
+    float: right;
+    right: 0%;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 8px 8px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* Change the color of links on hover */
+.navbarright a:hover {
+background-color: #ddd;
+color: black;
+}
+
+/* Add a color to the active/current link */
+.navbar button.active {
+color: white;
+}
+
+
+
+/* 드롭 업 버튼 */
+.dropup {
+    position: relative;
+}
+
+/* Dropup content (Hidden by Default) */
+.dropup-content {
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    background-color: #f1f1f1;
+    min-width: 40px;
+    max-width: 100px;
+    z-index: 100;
+}
+
+/* Links inside the dropup */
+.dropup-content a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropup links on hover */
+.dropup-content a:hover {
+    background-color: #ddd
+}
+
+/* Show the dropup menu on hover */
+.dropup:hover .dropup-content {
+    display: block;
+}

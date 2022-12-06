@@ -1,0 +1,131 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>통합 뷰어</title>
+<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="../viewer/viewermaster.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+
+<header>
+    <img id="n_28" src="../../Image/indeximage/n_28.png" srcset="../../Image/indeximage/n_28.png">
+    <img id="n_39" src="../../image/indeximage/n_39.png" srcset="../../image/indeximage/n_39.png 1x">
+    
+</header>
+<!--메인 프레임-->
+<body>
+    <div class="menu">
+        <div class="bg">
+        <iframe src="../viewer/viewerfull_5.html" name="iframe_m5"  height="100%" width="100%" title="Iframe" style="border:none"></iframe>
+        </div>
+            <div class="navbar">
+                <div class="navbar-left">
+                    <p><a href="#" target="iframe_m5" class="split"><img src="../viewer/icons/copyright.png" width="20px" height="20px"></a></p>
+                </div>
+                
+                <div class="navbar-right">
+                    <!--
+                    <div class = "dividebtn" onclick = "toggleMenu()"></div>
+                    -->
+                    <p><a href="../viewer/viewerfull_5.html" target="iframe_m5"><img src="../viewer/icons/single_screen.png" width="23px" height="23px" inlineheight ></a></p>
+                    <p><a href="../viewer/viewersplit_5.html" target="iframe_m5"><img src="../viewer/icons/split_screen.png" width="25px" height="25px"></a></p>
+                </div>
+            </div>        
+        </div>
+    </div>
+
+    <!--사이드 펼침 메뉴-->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <p></p>
+    </div>
+
+
+<!--기본 사이드 메뉴 - 안사라짐-->
+    <div class="sidedes">
+        <hr class="topHr">
+        <ul class="breadcrumb">
+            <li><a href="../../Index.html">검색</a></li>
+            <li><a href="../../searchresult/dtype/result_dtype.html">검색결과</a></li>
+            <li><a href="./viewermaster.html">통합뷰어</a></li>
+            <li><a href="#">유물이름</a></li>
+        </ul><br/>
+        <!-- <hr class="hrso"> -->
+        <p class = "title1" href="#">기본 정보</p><br/>
+        <section>
+        <p class = "title2"> 서울 북한산 신라 진흥왕 순수비</p>
+        <p class = "title2">(서울 北漢山 新羅 眞興王 巡狩碑)</p>
+        <p class = "title3">c. 신라 진흥왕 29년 (569)</p>
+        <p class = "title3">서울 용산구 서빙고로 137, 국립중앙박물관 (용산동6가)</p><br/>
+
+        <a><p> 신라 진흥왕(재위 540∼576)이 세운 순수척경비(巡狩拓境碑) 가운데 하나로, 한강유역을 영토로 편입한 뒤 왕이 이 지역을 방문한 것을 기념하기 위하여 세운 것이다. 
+            원래는 북한산 비봉에 자리하고 있었으나 비(碑)를 보존하기 위하여 경복궁에 옮겨 놓았다가 현재는 국립중앙박물관에 보관되어 있다.</p></a><br/>
+        </section>
+        <div id="side">
+            <span><a class = "split" onclick="openNav()">상세설명 ></a></span><br/>
+        </div>
+
+        <section class="bottominterface">
+            <hr class="bottomline"><br/>
+            <p class="bottominfo">추가정보 ></p><br/>
+            <hr class="bottomline"><br/>
+            <p class="bottominfo">다운로드 및 공유 ></p><br/>
+            <hr class="bottomline"><br/>
+            <p class="bottominfo">관련자료 ></p><br/>
+        </section>
+    </div>
+
+
+    <!--탑 메뉴 / 가이드 언어 등등-->
+    <div class="topnav">
+            <a href="#guide"><img src="../viewer/icons/interrogation.png" width="20px" height="20px"></a>
+            <div class="dropdowntop">
+                <button class ="dropbtntop"><img src="../viewer/icons/language.png" width="20px" height="20px">
+                    <i class ="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdowntop-content">
+                    <a herf ="#">한국어</a>
+                    <a herf ="#">English</a>
+                    <a herf ="#">中國語</a>
+                    <a herf ="#">日本語</a>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <!-- Breadcrumb navigation-->
+
+    <!--하단 화면 토글 스위치 
+    <label class="switch">
+    <input type="checkbox">
+    <span class="slider round"></span>
+    </label>
+
+    
+    <div class="main">
+    </div>
+    -->
+</body>
+
+<script type="text/javascript">
+/* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+function openNav() {
+document.getElementById("mySidenav").style.width = "450px";
+document.getElementById("main").style.marginLeft = "450px";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+function closeNav() {
+document.getElementById("mySidenav").style.width = "0";
+document.getElementById("main").style.marginLeft = "0";
+}
+
+function toggleMenu() {
+    let dividebtn = document.querySelector(".dividebtn");
+    dividebtn.classList.toggle("active");
+}
+</script>
+</html>
