@@ -1,0 +1,175 @@
+/*첫번째 이미지*/
+#n_1 {
+	opacity: 0.6;
+	position: absolute;
+	width: 1920px;
+	height: 650px;
+	left: 0px;
+	top: 70px;
+}
+
+/*두번째 이미지*/
+#n_2 {
+	opacity: 0.6;
+	position: absolute;
+	width: 1920px;
+	height: 150px;
+	left: 0px;
+	top: 640px;
+}
+
+/*세번째 이미지*/
+#n_3 {
+	opacity: 0.6;
+	position: absolute;
+	width: 1920px;
+	height: 150px;
+	left: 0px;
+	top: 795px;
+}
+/* 검색 유형 텍스트 */
+#htype {
+	left: 100px;
+	top: 250px;
+	position: absolute;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 210 OmniGothic 040;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 56px;
+	color: rgba(255,255,255,1);
+}
+#dtype {
+	left: 100px;
+	top: 690px;
+	position: absolute;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 210 OmniGothic 040;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 56px;
+	color: rgba(255,255,255,1);
+}
+#ptype {
+	left: 100px;
+	top: 860px;
+	position: absolute;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 210 OmniGothic 040;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 56px;
+	color: rgba(255,255,255,1);
+}
+/* 펼치기 텍스트 */
+#Text {
+	left: 1691.6px;
+	top: 784.392px;
+	position: absolute;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 210 OmniGothic 050;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Text_ {
+	left: 1691.6px;
+	top: 939.392px;
+	position: absolute;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 210 OmniGothic 050;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+/* 검색 바 */
+#search {
+	left: 140px;
+	top: 350px;
+	position: absolute;
+	overflow: visible;
+	width: 91px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 210 OmniGothic 030;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#searchtext {
+	left: 200px;
+	top: 350px;
+	position: absolute;
+	overflow: visible;
+	width: 319px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 210 OmniGothic 030;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#htypeavancesearch {
+	left: 100px;
+	top: 400px;
+	position: absolute;
+	overflow: visible;
+	width: 154px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 210 OmniGothic 050;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	color: rgba(255,255,255,1);
+}
+/* 헤더 부가 이미지 */
+#n_28 {
+	position: absolute;
+	width: 295.715px;
+	height: 53.633px;
+	left: 187.126px;
+	top: 1%;
+	overflow: visible;
+}
+#n_39 {
+	position: absolute;
+	width: 139.882px;
+	height: 53.633px;
+	left: 45.048px;
+	top: 1%;
+	overflow: visible;
+}
+#n_42 {
+	position: absolute;
+	width: 404px;
+	height: 53.633px;
+	left: 1506.999px;
+	top: 1%;
+	overflow: visible;
+}
+/* 하단 부가 이미지 */
+#n_31 {
+	position: absolute;
+	width: 1920px;
+	height: 100px;
+	left: 0px;
+	top: 970px;
+	overflow: visible;
+}
